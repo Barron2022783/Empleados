@@ -23,10 +23,10 @@ public class Empleados {
     
     // Metodo: son las acciones que realiza el objeto
     public void Getdetails (){
-        System.out.println("Id: " + Id);
+        System.out.println("No. de empleado: " + Id);
         System.out.println("Nombre: " + Nombre);
         System.out.println("Apellido Paterno: : " + Apellido_Paterno);
-        System.out.println("Apellido Materno" + Apellido_Materno);
+        System.out.println("Apellido Materno: " + Apellido_Materno);
         System.out.println("Edad: " + edad);
         System.out.println("Email: " + email);
         System.out.println("Numero telefonico: " + Telefono);
