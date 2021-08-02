@@ -11,6 +11,7 @@ package recursos_humanos;
  */
 public class Empleados {
     
+    // describe los atributos
     int Id;
     String Nombre;
     String Apellido_Paterno;
@@ -18,20 +19,20 @@ public class Empleados {
     int edad;
     String email;
     int Telefono;
-    float Salario;
+    double Salario;
     String hiredate;
     
     // Metodo: son las acciones que realiza el objeto
-    public void Getdetails (){
+    public void GetDetails (){
         System.out.println("No. de empleado: " + Id);
         System.out.println("Nombre: " + Nombre);
-        System.out.println("Apellido Paterno: : " + Apellido_Paterno);
+        System.out.println("Apellido Paterno: " + Apellido_Paterno);
         System.out.println("Apellido Materno: " + Apellido_Materno);
         System.out.println("Edad: " + edad);
         System.out.println("Email: " + email);
         System.out.println("Numero telefonico: " + Telefono);
         System.out.println("Salario: " + Salario);
-        System.out.println("Contratacion: " + hiredate);
+        System.out.println("Fecha de Contratacion: " + hiredate);
     }
     
 }
