@@ -42,10 +42,11 @@ public class Main {
         //codigo por medio de ventanas de dialogo
         e1.Id = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero de empleado"));
         e1.Nombre = JOptionPane.showInputDialog("Ingrese el nombre");
-        e1.Apellido_Paterno = JOptionPane.showInputDialog("Ingrese el apellido");
+        e1.Apellido_Paterno = JOptionPane.showInputDialog("Ingrese el apellido Paterno");
+        e1.Apellido_Materno = JOptionPane.showInputDialog("Ingrese el apellido Materno");
         e1.edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad"));
-        e1.email = JOptionPane.showInputDialog("Ingrese el correo");
-        e1.Telefono = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero de telefono"));
+        e1.email = JOptionPane.showInputDialog("Ingrese direccion de correo electronico");
+        e1.Telefono = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero telefonico"));
         e1.Salario = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el salario"));
         e1.hiredate = JOptionPane.showInputDialog("La fecha de contratación");
         
